@@ -90,7 +90,7 @@ fun ExpensesScreen(navController: NavController) {
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Текущий месяц
+
             Text(
                 text = "Месяц: $currentMonth",
                 fontSize = 16.sp,

@@ -28,7 +28,6 @@ fun EducationScreen() {
         )
     }
 
-    // Логотип внизу по центру
     Box(
         modifier = Modifier
             .fillMaxSize()

@@ -59,7 +59,7 @@ fun AppNavigation(navController: NavHostController) {
         ) {
             composable("splash") { SplashScreen(navController) }
             composable("registration") {
-                // Передаем LocalContext.current в RegistrationScreen
+
                 RegistrationScreen(navController = navController, context = LocalContext.current)
             }
             composable("expenses") { ExpensesScreen(navController) }

@@ -23,7 +23,7 @@ fun RegistrationScreen(navController: NavController, context: Context) {
     val phoneNumber = remember { mutableStateOf("+7") }
     val password = remember { mutableStateOf("") }
     val db = AppDatabase.getDatabase(context) // Инициализация базы данных
-    val coroutineScope = rememberCoroutineScope() // Для работы с корутинами
+    val coroutineScope = rememberCoroutineScope()
     var registrationMessage by remember { mutableStateOf("") } // Сообщение для подтверждения регистрации
 
     Box(

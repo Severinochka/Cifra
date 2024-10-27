@@ -12,4 +12,4 @@ interface UserDao {
     @Query("SELECT * FROM users WHERE phoneNumber = :phoneNumber")
     suspend fun getUserByPhoneNumber(phoneNumber: String): User?
 }
-
+//для коммита

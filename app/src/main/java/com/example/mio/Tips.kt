@@ -20,7 +20,7 @@ fun TipsScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Black) // Устанавливаем черный фон для всего экрана
+            .background(Color.Black)
     ) {
         LazyColumn(
             modifier = Modifier

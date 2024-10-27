@@ -14,7 +14,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.example.mio.R
 
-// Определение пунктов меню
+
 sealed class BottomNavItem(val route: String, val icon: Int, val title: String) {
     object Expenses : BottomNavItem("expenses", R.drawable.expenses, "Расходы")
     object Tips : BottomNavItem("tips", R.drawable.tips, "Советы")
